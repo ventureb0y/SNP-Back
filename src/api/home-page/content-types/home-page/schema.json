@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "main_title": {
+      "type": "string",
+      "required": true
+    },
+    "main_description": {
+      "type": "text",
+      "required": true
+    },
+    "brand_images": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "advantages_title": {
+      "type": "string",
+      "required": true
+    },
+    "catalog_title": {
+      "type": "string",
+      "required": true
+    },
+    "catalog_description": {
+      "type": "text"
+    },
+    "feedback_title": {
+      "type": "string",
+      "required": true
+    },
+    "feedback_description": {
+      "type": "text",
+      "required": true
+    },
+    "phone_number": {
+      "type": "string"
+    }
+  }
+}
